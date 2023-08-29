@@ -1,9 +1,9 @@
-import React from 'react'
+import Hero from "../layout/Hero";
 
 export default function Shop() {
   return (
-    <div>
-      SHOP
+    <div className="relative px-3 md:px-5 w-full">
+      <Hero />
     </div>
   )
 }
