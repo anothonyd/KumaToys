@@ -30,6 +30,7 @@ export default class MultipleItems extends Component {
           breakpoint: 600,
           settings: {
             className: "center",
+            centerPadding:"30px",
             centerMode: true,
             slidesToShow: 1,
             slidesToScroll: 1,
@@ -42,29 +43,32 @@ export default class MultipleItems extends Component {
       <div>
         <h1 className="title my-5"> Latest Releases </h1>
         <Slider {...settings} className="flex gap-5">
-          <div className="h-[400px] p-5">
+          <div className="h-[360px] md:h-[400px] p-2 md:p-5">
             <div className="p-3 bg-red-300 h-full rounded-3xl">1</div>
           </div>
-          <div className="h-[400px] p-5">
-            <h3 className="p-3 bg-red-300 h-full rounded-3xl">1</h3>
+          <div className="h-[360px] md:h-[400px] p-2 md:p-5">
+            <div className="p-3 bg-red-300 h-full rounded-3xl">1</div>
           </div>
-          <div className="h-[400px] p-5">
-            <h3 className="p-3 bg-red-300 h-full rounded-3xl">1</h3>
+          <div className="h-[360px] md:h-[400px] p-2 md:p-5">
+            <div className="p-3 bg-red-300 h-full rounded-3xl">1</div>
           </div>
-          <div className="h-[400px] p-5">
-            <h3 className="p-3 bg-red-300 h-full rounded-3xl">1</h3>
+          <div className="h-[360px] md:h-[400px] p-2 md:p-5">
+            <div className="p-3 bg-red-300 h-full rounded-3xl">1</div>
           </div>
-          <div className="h-[400px] p-5">
-            <h3 className="p-3 bg-red-300 h-full rounded-3xl">1</h3>
+          <div className="h-[360px] md:h-[400px] p-2 md:p-5">
+            <div className="p-3 bg-red-300 h-full rounded-3xl">1</div>
           </div>
-          <div className="h-[400px] p-5">
-            <h3 className="p-3 bg-red-300 h-full rounded-3xl">1</h3>
+          <div className="h-[360px] md:h-[400px] p-2 md:p-5">
+            <div className="p-3 bg-red-300 h-full rounded-3xl">1</div>
           </div>
-          <div className="h-[400px] p-5">
-            <h3 className="p-3 bg-red-300 h-full rounded-3xl">1</h3>
+          <div className="h-[360px] md:h-[400px] p-2 md:p-5">
+            <div className="p-3 bg-red-300 h-full rounded-3xl">1</div>
           </div>
-          <div className="h-[400px] p-5">
-            <h3 className="p-3 bg-red-300 h-full rounded-3xl">1</h3>
+          <div className="h-[360px] md:h-[400px] p-2 md:p-5">
+            <div className="p-3 bg-red-300 h-full rounded-3xl">1</div>
+          </div>
+          <div className="h-[360px] md:h-[400px] p-2 md:p-5">
+            <div className="p-3 bg-red-300 h-full rounded-3xl">1</div>
           </div>
         </Slider>
       </div>
