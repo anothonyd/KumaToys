@@ -23,5 +23,9 @@
 }
 
 .button {
-  @apply self-start font-sans font-source rounded-full font-semibold border-2 p-2 px-10 mt-2;
+  @apply text-center self-start font-sans rounded-full font-semibold border-2 p-2 px-10 mt-2 hover:shadow-2xl shadow-black;
+}
+
+.input {
+  @apply self-start font-sans rounded-full border-2 p-2 px-5 mt-2;
 }

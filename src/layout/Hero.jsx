@@ -10,14 +10,14 @@ export default function Hero() {
 
             <div className="flex flex-wrap md:flex-nowrap gap-3 md:gap-5">
                 <div className="w-full md:w-2/5 flex flex-col justify-end md:justify-center gap-5 p-10  bg-black/70 h-[500px] md:h-[320px] rounded-xl">
-                    <h1 className="font-semibold text-4xl">Galactic Savings</h1>
-                    <p className="w-full md:w-1/2 text-sm">Uncover figures discount for your expanding collections!</p>
+                    <h1 className="font-semibold text-2xl">Galactic Savings</h1>
+                    <p className="w-full md:w-1/2 text-xs">Uncover figures discount for your expanding collections!</p>
                     <button className="button">Explore offers</button>
                 </div>
 
                 <div className="w-full md:w-3/5 flex flex-col justify-end md:justify-center gap-5 p-10  bg-blue-900 h-[500px] md:h-[320px] rounded-xl">
-                    <h1 className="font-semibold text-4xl">Legendary Collectibles</h1>
-                    <p className="w-full md:w-2/5 text-md">Embrace the heroic essence of Superheroes figures</p>
+                    <h1 className="font-semibold text-3xl">Legendary Collectibles</h1>
+                    <p className="w-full md:w-2/5 text-lg">Embrace the heroic essence of Superheroes figures</p>
                     <button className="button">Shop now</button>
                 </div>
             </div>
